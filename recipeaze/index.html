@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipeaze</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Bootstrap CDN -->
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light justify-content-between">
+      <a class="navbar-brand">Recipeaze</a>
+      <form class="form-inline">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Find Recipe now!"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Find Recipe
+        </button>
+      </form>
+    </nav>
+    <div class="welcome">
+      <h1 class="welcome-text">Welcome to Recipeaze!</h1>
+      <h4 class="welcome-text">
+        Don't have an idea of what to cook?
+        <h5 class="welcome-text">
+          Click the button below to generate a fresh idea!
+        </h5>
+      </h4>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img class="card-img-top" src="food.jpg" alt="Card image cap" />
+      <div class="card-body">
+        <p class="card-text">
+          <h4 class="card-title">Recipe Title</h4>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+      </div>
+    </div>
+    <button type="button" class="btn btn-lg" id="generate">
+      Generate Recipe
+    </button>
+
+    <script src="app.js"></script>
+  </body>
+</html>

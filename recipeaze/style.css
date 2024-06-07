@@ -1,0 +1,133 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #d4edda !important; /* Light green background */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand {
+  color: #155724 !important; /* Dark green text */
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.form-inline .form-control {
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.form-inline .btn {
+  color: #155724; /* Dark green text */
+  border-color: #155724; /* Dark green border */
+  background-color: #c3e6cb; /* Light green button background */
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.form-inline .btn:hover {
+  background-color: #a4d4aa; /* Slightly darker green on hover */
+  border-color: #8fc39d; /* Slightly darker green on hover */
+}
+
+/* Centering the navbar content */
+.navbar-light .navbar-brand,
+.form-inline {
+  flex: 1;
+  text-align: center;
+}
+
+.navbar-light .form-inline {
+  flex: 2;
+  justify-content: center;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar-brand {
+    margin-bottom: 1rem;
+  }
+
+  .form-inline {
+    flex-direction: column;
+  }
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card styles */
+.card {
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px; /* Optional: round the corners of the card */
+  overflow: hidden; /* Ensure the image stays within the card's rounded corners */
+  text-align: center; /* Center-align text inside the card */
+}
+
+.card-img-top {
+  width: 100%;
+  border-radius: 50%; /* Make the image round */
+  border: 5px solid #d4edda; /* Light green border */
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #333;
+}
+/* Welcome text styles */
+.welcome {
+  text-align: center; /* Center the text */
+  margin: 20px 0;
+}
+
+.welcome-text {
+  color: #28a745; /* Light green text */
+}
+/* Center the button */
+#generate {
+  display: block;
+  margin: 0 auto;
+  color: #155724; /* Dark green text */
+  border-color: #155724; /* Dark green border */
+  background-color: #c3e6cb; /* Light green button background */
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+#generate:hover {
+  background-color: #a4d4aa; /* Slightly darker green on hover */
+  border-color: #8fc39d; /* Slightly darker green on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
